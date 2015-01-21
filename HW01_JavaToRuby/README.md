@@ -10,6 +10,8 @@ I had a lot of difficulty at first with parsing the input file. In Java, we crea
 
 After some searching, I discovered Ruby's StringScanner, and used that to write a functional (and correct) TokenScanner.
 
+It was also challenging in general to get out of the "Java frame of mind" (very for-loop-oriented) and adapt to the Ruby way of doing things. However, once I got used to them, methods such as arr.each and arr.each_with_index made the code a lot cleaner and more compact.
+
 ## Usage
 
 `ruby spell_checker.rb <in> <out> <dictionary> <corrector>`
