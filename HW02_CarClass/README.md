@@ -1,0 +1,5 @@
+I created a `Car` class with instance variables for the car brand, year, and condition, and a class variable for the number of cars in existence, since one of the requirements was that the Car class must keep track of how many car objects exist at a given time.
+
+The garage was implemented as an array, with separate functions for adding, removing, and sorting cars. (I could have made a Garage class to do the same thing, but I decided to model it after the way we did Tasks in class.) I added a `print` method to the Car class so the contents of the garage could be printed.
+
+One challenge I encountered was in implementing the sort method — since I originally neglected to add `attr_accessor` to the Car class, my sort method could not access each car's `year` to sort it. This was easily fixed by adding `attr_accessor :brand, :year, :condition`, allowing outside code to get and set the fields of Car.

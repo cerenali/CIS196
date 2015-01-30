@@ -80,19 +80,3 @@ while !quit
     puts "Invalid input — please enter an integer between 1 and 6"
   end
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
